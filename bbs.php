@@ -35,7 +35,7 @@
 // データベースへ接続
 $dbs = "mysql:host=127.0.0.1;dbname=lesson;charset=utf8";
 $db_user = "root";
-$db_pass = "Smirai-118";
+$db_pass = "pass";
 $pdo = new PDO($dbs, $db_user, $db_pass);
 
 // 変数の設定
